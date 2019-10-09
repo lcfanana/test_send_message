@@ -1,0 +1,8 @@
+test_add:
+ test_add_001:
+   phone: "13545555555"
+   text: "你在干什么啊"
+ test_add_002:
+    phone: "11111111111"
+    text: "哈哈哈哈"
+
