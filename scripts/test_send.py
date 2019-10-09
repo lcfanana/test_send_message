@@ -15,7 +15,7 @@ class TestSend:
         self.driver.quit()
 
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
-    # @pytest.mark.parametrize("args",data_file("send_message.yaml","test_add"))
+    @pytest.mark.parametrize("args",data_file("send_message.yaml","test_add"))
     def test_send(self,args):
         self.page.message_frist.click_meassage_button()
         self.page.send_message.send_recipe_person(args["phone"])
